@@ -1,0 +1,27 @@
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>沉床公园喷泉</title>
+    <link rel="shortcut icon" href="/favicon.svg">
+</head>
+
+<!-- Import the component -->
+<script type="module" src="../lib/model-viewer.min.js"></script>
+
+<!-- Use it like any other HTML element -->
+<model-viewer bounds="tight" enable-pan src="./assets/pen/scene.gltf" ar ar-modes="webxr scene-viewer quick-look" camera-controls environment-image="neutral" poster="poster.webp" shadow-intensity="1.49" auto-rotate exposure="0.73" shadow-softness="0.92">
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+</model-viewer>
+
+<style>
+    model-viewer{
+        width: 100%;
+        height: 100%;
+    }
+</style>
+

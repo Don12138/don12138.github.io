@@ -1,0 +1,73 @@
+{
+  "name": "portfolio",
+  "version": "0.1.0",
+  "description": "Portfolio site for Alen Yohannan",
+  "repository": "https://github.com/Alensaito1/portfolio.git",
+  "author": "Alen Yohannan",
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@hamishmw/react-scripts-postcss": "4.0.0-mod1",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "mdx-loader": "^3.0.2",
+    "prettier": "^2.7.1",
+    "react-snap": "1.23.0",
+    "source-map-explorer": "^2.5.3",
+    "stylelint": "^13.13.1",
+    "stylelint-config-recommended": "^3.0.0"
+  },
+  "dependencies": {
+    "@mdx-js/react": "^1.6.22",
+    "classnames": "^2.3.2",
+    "dompurify": "^2.4.0",
+    "jsdom": "^16.7.0",
+    "nodemailer": "^6.8.0",
+    "popmotion": "^8.7.6",
+    "react": "^17.0.2",
+    "react-dev-utils": "^12.0.1",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-router-dom": "5.2.0",
+    "react-scripts-postcss": "^4.0.0-mod1",
+    "react-slick": "^0.29.0",
+    "react-transition-group": "^4.4.5",
+    "redux": "^4.2.0",
+    "slick-carousel": "^1.8.1",
+    "three": "^0.126.1",
+    "video-react": "^0.15.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "postbuild": "react-snap",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "analyze": "source-map-explorer 'build/static/js/*.js'",
+    "prettier-format": "prettier --config .prettierrc \"src/**/*.js\" --write"
+  },
+  "reactSnap": {
+    "skipThirdPartyRequests": true,
+    "headless": true,
+    "crawl": true,
+    "puppeteerArgs": [
+      "--no-sandbox",
+      "--disable-setuid-sandbox"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">10%",
+      "not dead",
+      "not ie 11",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
