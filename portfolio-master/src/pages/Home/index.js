@@ -182,6 +182,7 @@ const Home = () => {
                 description="Virtual Character"
                 buttonText="点击选择"
                 buttonLink="/IPshow/index.html"
+                isExternal={true}
                 model={{
                     type: 'child',
                     alt: 'Spotifydl-Core',
