@@ -1,7 +1,3 @@
-import iphone11 from 'assets/iphone-11.glb'
-import macbookPro from 'assets/macbook-pro.glb'
-import vr from 'assets/vr-glasses.glb'
-import child from 'assets/child.glb'
 
 export const ModelAnimationType = {
     SpringUp: 'spring-up',
@@ -10,27 +6,27 @@ export const ModelAnimationType = {
 
 const models = {
     phone: {
-        url: iphone11,
+        url: "https://meta-park-1301923173.cos.ap-shanghai.myqcloud.com/iphone-11.glb",
         width: 374,
         height: 512,
         position: { x: 0, y: 0, z: 0 },
         animation: ModelAnimationType.SpringUp,
     },
     laptop: {
-        url: macbookPro,
+        url: "https://meta-park-1301923173.cos.ap-shanghai.myqcloud.com/macbook-pro.glb",
         width: 1280,
         height: 800,
         position: { x: 0, y: 0, z: 0 },
         animation: ModelAnimationType.LaptopOpen,
     },
     vr: {
-        url: vr,
+        url: "https://meta-park-1301923173.cos.ap-shanghai.myqcloud.com/vr-glasses.glb",
         width: 1280,
         height: 800,
         position: { x: 0, y: 0, z: 0 },
     },
     child: {
-        url: child,
+        url: "https://meta-park-1301923173.cos.ap-shanghai.myqcloud.com/child.glb",
         width: 1280,
         height: 800,
         position: { x: 0, y: 0, z: 0 },

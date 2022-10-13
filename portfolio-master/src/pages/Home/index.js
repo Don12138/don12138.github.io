@@ -178,8 +178,8 @@ const Home = () => {
                 sectionRef={projectFour}
                 visible={visibleSections.includes(projectFour.current)}
                 index={1}
-                title="数字形象IP"
-                description="Virtual Character"
+                title="上海复兴公园数字IP设计"
+                description="Digital IP Design of Shanghai Fuxing Park"
                 buttonText="点击选择"
                 buttonLink="/IPshow/index.html"
                 isExternal={true}
@@ -201,7 +201,7 @@ const Home = () => {
                 visible={visibleSections.includes(projectOne.current)}
                 index={2}
                 title="上海复兴公园在线游览"
-                description="Shanghai Fuxin Park Online Tour"
+                description="Shanghai Fuxing Park Online Tour"
                 buttonText="查看详情"
                 buttonLink="/25D-page/index.html"
                 isExternal={true}
@@ -224,7 +224,7 @@ const Home = () => {
                 visible={visibleSections.includes(projectTwo.current)}
                 index={3}
                 title="上海复兴公园元宇宙"
-                description="Shanghai Fuxin Park in Metaverse"
+                description="Shanghai Fuxing Park in Metaverse"
                 buttonText="敬请期待"
                 buttonLink=""
                 model={{
